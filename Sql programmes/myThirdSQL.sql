@@ -69,4 +69,3 @@ ON student.id = course.id;
 SELECT * FROM dept as t1
 INNER JOIN teacher as t2
 ON t1.id = t2.dept_id;
- 
